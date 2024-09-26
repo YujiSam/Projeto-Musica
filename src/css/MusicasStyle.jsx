@@ -58,7 +58,7 @@ export const MusicasStyle = styled.section`
 .artista-container iframe {
   width: 50%; 
   height: 500px;
-  border: 2px solid #ffd700; 
+  border: 2px solid gold; 
   display: flex;
   justify-content: flex-start;
   border-radius: 10px;
@@ -83,8 +83,5 @@ export const MusicasStyle = styled.section`
     margin-left: auto;
     max-width: 500px;
 }
-
-@media (max-width: 520px) {
-} 
 
 `

@@ -23,7 +23,7 @@ export const NavStyle = styled.section`
 }
 
 .navLink {
-  color: #ffd700; 
+  color: gold; 
   text-decoration: none;
   font-size: 1.2rem;
   margin-left: 2rem;
@@ -56,7 +56,7 @@ export const NavStyle = styled.section`
 }
 
 .navLink:active {
-  color: #ffdb58; 
+  color: gold; 
   transform: translateY(1px);
 }
 

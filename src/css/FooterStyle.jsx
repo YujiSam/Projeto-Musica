@@ -4,7 +4,7 @@ export const FooterStyle = styled.section`
 
 .footer {
   background-color: #000; 
-  color: #ffd700; 
+  color: gold; 
   padding: 2rem;
 }
 

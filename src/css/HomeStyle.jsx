@@ -9,7 +9,7 @@ export const HomeStyle = styled.section`
 }
 
 .banner {
-  background-color: #ffd700; 
+  background-color: gold; 
   color: #000; 
   text-align: center;
   padding: 2rem 0;
@@ -31,7 +31,7 @@ export const HomeStyle = styled.section`
   max-width: 130px;
   padding: 1rem 1.5rem;
   background-color: #000; 
-  color: #ffd700; 
+  color: gold; 
   border: none;
   border-radius: 5px;
   font-size: 1rem;
@@ -110,7 +110,7 @@ export const HomeStyle = styled.section`
 
 .avaliacoes {
   background-color: #333;
-  color: #ffd700;
+  color: gold;
   padding: 2rem;
 }
 
@@ -145,7 +145,7 @@ export const HomeStyle = styled.section`
 
 .estrelas span {
   font-size: 1.5rem;
-  color: #ffd700; 
+  color: gold; 
 }
 
 .comentario {
