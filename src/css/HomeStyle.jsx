@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const HomeStyle = styled.section`
 
-.body {
+.main-container {
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
@@ -12,7 +12,7 @@ export const HomeStyle = styled.section`
   background-color: #ffd700; 
   color: #000; 
   text-align: center;
-  padding: 4rem 0;
+  padding: 2rem 0;
   border-bottom: 5px solid #000;
   position: relative; 
 }

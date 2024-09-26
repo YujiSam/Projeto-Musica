@@ -9,7 +9,7 @@ function Home() {
     return (
       <>
       <HomeStyle>
-        <header className="body">
+        <header className="main-container">
           <section className="banner">
             <h1>Experimente do Melhor</h1>
             <a href="/musicas" className="btn">Saiba Mais</a>
