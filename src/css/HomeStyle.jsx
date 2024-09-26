@@ -25,23 +25,23 @@ export const HomeStyle = styled.section`
   letter-spacing: 2px;
 }
 
-.banner button {
+.btn {
   margin-top: 1rem;
-  padding: 0.7rem 1.5rem;
   margin-left: 20px;
-  display: flex;
-  font-family: "Josefin Sans", sans-serif;
-  background-color: #000;
+  max-width: 130px;
+  padding: 1rem 1.5rem;
+  background-color: #000; 
   color: #ffd700; 
   border: none;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
+  display: flex;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.banner button:hover {
-  background-color: #333; 
+.btn:hover {
+  background-color: #333;
   transform: scale(1.05); 
 }
 
@@ -107,5 +107,53 @@ export const HomeStyle = styled.section`
   right: -10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.avaliacoes {
+  background-color: #333;
+  color: #ffd700;
+  padding: 2rem;
+}
+
+.avaliacoes h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  color: #fff; 
+}
+
+.avaliacao {
+  background-color: #444;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.avaliacao-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.nome-cliente {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff; 
+}
+
+.estrelas span {
+  font-size: 1.5rem;
+  color: #ffd700; 
+}
+
+.comentario {
+  font-size: 1rem;
+  color: #ddd;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
 
 `
