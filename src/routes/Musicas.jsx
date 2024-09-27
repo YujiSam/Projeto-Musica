@@ -24,6 +24,15 @@ function Musicas() {
             </div>
           </div>
         </section>
+        <section className="artista">
+          <div className="artista-container">
+            <div className="info-1">
+              <h1>Você conhece o 7Minutoz?</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem aspernatur ad similique quos inventore officiis expedita dignissimos recusandae incidunt eius voluptas deleniti dolor.</p>
+            </div>
+            <iframe src="https://www.youtube.com/embed/zs_zpMnwNMs" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </section>
       </header>
       </MusicasStyle>
       </>

@@ -65,14 +65,14 @@ export const MusicasStyle = styled.section`
 }
 
 .info{
-    width: 40%; 
-    height: 500px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('src/assets/Tauz.png');
-    background-size: cover;
-    background-position: end;
-    background-repeat: no-repeat;
-    border-bottom-right-radius:100%;
-    border-bottom-left-radius:100%;
+  width: 40%; 
+  height: 500px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('src/assets/Tauz.png');
+  background-size: cover;
+  background-position: end;
+  background-repeat: no-repeat;
+  border-bottom-right-radius:100%;
+  border-bottom-left-radius:100%;
 }
 
 .info h1,p{
@@ -80,8 +80,24 @@ export const MusicasStyle = styled.section`
 }
 
 .info p{
-    margin-left: auto;
-    max-width: 500px;
+  margin-left: auto;
+  max-width: 500px;
+}
+
+.info-1{
+  width: 40%; 
+  height: 500px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('src/assets/7mz.png');
+  background-size: cover;
+  background-position: end;
+  background-repeat: no-repeat;
+  border-bottom-right-radius:100%;
+  border-bottom-left-radius:100%;
+}
+
+.info-1 p{
+  max-width: 500px;
+  text-align: start;
 }
 
 `
