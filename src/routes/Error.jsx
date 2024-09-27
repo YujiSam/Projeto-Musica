@@ -5,7 +5,7 @@ function Error() {
     return (
       <>
       <ErrorStyle>
-        
+          
       </ErrorStyle>
       </>
     )
